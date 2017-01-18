@@ -18,7 +18,7 @@ namespace WriteTextFile
             
             using (StreamWriter sw = File.CreateText(path))
             {
-               sw.WriteLine("This is just a test text for sample file.");
+               sw.WriteLine("This is just a test text for sample files.");
             }
 
         }
